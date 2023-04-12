@@ -1,0 +1,25 @@
+.nav-it-style{
+    padding: 0px 50px !important;
+    font-size: 25px;
+}
+
+body{
+    font-family: 'Georgia', serif !important;
+}
+/* .navbar{
+    position: sticky !important;
+    top: 0px;
+} */
+.footer{
+position: fixed;
+  bottom: 0px;
+  background-color: rgb(255, 249, 202);
+  width: 100% !important;
+  height: 230px;
+}
+
+.navbar1{
+    position:fixed;
+    overflow:hidden;
+    top:0px;
+}
