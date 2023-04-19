@@ -1,25 +1,51 @@
-.nav-it-style{
-    padding: 0px 50px !important;
-    font-size: 25px;
+.nav-it-style {
+  padding: 0px 50px !important;
+  font-size: 25px;
 }
 
-body{
-    font-family: 'Georgia', serif !important;
+body {
+  font-family: "Georgia", serif !important;
+  background-color: #dcdcdc;
 }
-/* .navbar{
-    position: sticky !important;
-    top: 0px;
-} */
-.footer{
-position: fixed;
-  bottom: 0px;
+
+.footer {
   background-color: rgb(255, 249, 202);
   width: 100% !important;
   height: 230px;
 }
 
-.navbar1{
-    position:fixed;
-    overflow:hidden;
-    top:0px;
+.navbar1 {
+  position: fixed;
+  overflow: hidden;
+  top: 0px;
+}
+
+#trangban {
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+}
+
+.name {
+  color: black;
+  font-size: medium;
+}
+
+.trang {
+  background-color: white;
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: small;
 }
