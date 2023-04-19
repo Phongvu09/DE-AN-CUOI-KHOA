@@ -48,3 +48,17 @@ function rendergamemov(options){
     });
     gamemovBlock.innerHTML=htmls.join('');
 }
+
+
+/**
+ *  .map() tạo một mảng từ việc gọi một hàm cụ thể trên từng mục trong mảng cha. 
+ join() method creates and returns a new string by concatenating all of the elements in an array*/
+
+function sub(){
+    var sub= getElementsById('submit');
+    sub.addEventListener('click', addItem);
+}
+ var store = localStorage
+
+
+
