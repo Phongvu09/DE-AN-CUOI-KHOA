@@ -16,12 +16,13 @@ fetch(
     for (item in data) {
       console.log(data[item]);
 
-      let card = document.createElement("div");
+      let card = document.createElement("a");
       let anh = document.createElement("img");
-      let title = document.createElement("h2");
+      let title = document.createElement("h5");
       let trangban = document.getElementById("trangban");
+      card.setAttribute("href", "trangcon.html");
       card.classList.add("trang");
-      document.createElement("button");
+      anh.classList.add("img");
 
       anh.setAttribute("src", data[item].thumbnail);
       title.innerText = data[item].title;

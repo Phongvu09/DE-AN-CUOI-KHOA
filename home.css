@@ -26,12 +26,14 @@ body {
   margin-top: 60px;
   margin-left: 10px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .img {
   width: 300px;
-  height: 200px;
+  height: 150px;
+  border-radius: 7px;
 }
 
 .name {
@@ -43,9 +45,11 @@ body {
   background-color: white;
   width: 300px;
   height: 250px;
-  margin-left: 10px;
+  margin-left: 40px;
   margin-bottom: 10px;
+  border-radius: 7px;
 }
-h2 {
+h5 {
   font-size: small;
+  text-align: center;
 }
