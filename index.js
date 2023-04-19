@@ -30,5 +30,4 @@ fetch(
       card.appendChild(title);
       trangban.appendChild(card);
     }
-  })
-  .catch((err) => console.error(err));
+
