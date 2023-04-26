@@ -18,6 +18,19 @@ body {
 
 body {
   font-family: "Georgia", serif !important;
+  height: 100%;
+}
+
+.footer {
+  background-color: rgb(218, 245, 255);
+}
+.nav-it-style {
+  padding: 0px 50px !important;
+  font-size: 23px;
+}
+
+body {
+  font-family: "Georgia", serif !important;
   background-color: white;
 }
 
