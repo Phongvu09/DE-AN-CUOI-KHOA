@@ -13,14 +13,14 @@ fetch(
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
-    for (item in data) {
+    for (let item = 0; item < data.length; item++) {
       console.log(data[item]);
 
-      let card = document.createElement("a");
+      let card = document.createElement("div");
+      card.setAttribute("id", data[item].id);
       let anh = document.createElement("img");
       let title = document.createElement("h5");
       let trangban = document.getElementById("trangban");
-      card.setAttribute("href", "trangcon.html");
       card.classList.add("trang");
       anh.classList.add("img");
 
@@ -30,5 +30,9 @@ fetch(
       card.appendChild(anh);
       card.appendChild(title);
       trangban.appendChild(card);
+      document.getElementById(data[item].id).addEventListener("click", () => {
+        localStorage.setItem("API", data[item].id);
+        window.location.href = "trangcon.html";
+      });
     }
-
+  });
