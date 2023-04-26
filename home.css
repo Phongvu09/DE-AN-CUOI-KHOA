@@ -1,20 +1,19 @@
-.nav-it-style{
-    padding: 0px 50px !important;
-    font-size: 32px;
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
- font-weight: bold;
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif !important;
-    height: 100%;
-    background-color: black;
-}
-
 .nav-it-style {
   padding: 0px 50px !important;
   font-size: 23px;
-  
+}
+
+body {
+  font-family: "Georgia", serif !important;
+  height: 100%;
+}
+
+.footer {
+  background-color: rgb(218, 245, 255);
+}
+.nav-it-style {
+  padding: 0px 50px !important;
+  font-size: 23px;
 }
 
 body {
@@ -29,81 +28,67 @@ body {
   height: 400px;
 }
 
-.navbar1{
-    width: 100% !important;
-    position: fixed;
-    top: 0px;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
+.navbar1 {
+  width: 100% !important;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
 }
 
-h1{
-    padding-top: 20px;
-    text-align: center;
-    font-size: 50px !important;
+h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 50px !important;
 }
 
-p{
-    font-size: 22px;
-    padding: 0px 30px;
+p {
+  font-size: 22px;
+  padding: 0px 30px;
 }
 
-#toggleDark{
-    font-size: 40px;
-    padding : 80px 0px 30px 50px;
+.search {
+  display: flex;
 }
 
-
-a.game-gen{
-font-size: 23px;
-color: white !important;
-font-weight: bold;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+.search-hover:hover {
+  background-color: rgb(232, 160, 191) !important;
+  color: white;
 }
 
-.search{
-    display: flex;
-}
-
-.search-hover:hover{
-    background-color: rgb(232, 160, 191) !important;
-    color: white;
-}
-
-.navbar-expand-lg .navbar-collapse{
-    display: flex!important;
-    justify-content: space-between ;
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  justify-content: space-between;
 }
 
 .my-2 {
-    padding: 0 50px !important;
+  padding: 0 50px !important;
 }
 
-.ft{
-    padding-bottom: 5px;
+.ft {
+  padding-bottom: 5px;
 }
 
-.fta{
-    font-size: 24px !important;
-    color:rgb(111, 190, 233);   
+.fta {
+  font-size: 24px !important;
+  color: rgb(111, 190, 233);
 }
 
-.vm-img{
-    display: flex;
-    justify-content: center;
+.vm-img {
+  display: flex;
+  justify-content: center;
 }
 
-.vm{
-    display: flex;
-    justify-content: center;
+.vm {
+  display: flex;
+  justify-content: center;
 }
 
-.ddown{
-    color: rgb(87, 108, 188);
-    padding-right: 10px;
-    font-size: 16px;
+.ddown {
+  color: rgb(87, 108, 188);
+  padding-right: 10px;
+  font-size: 16px;
 }
 
 /* li.nav-item.active {
@@ -115,71 +100,75 @@ li.nav-item {
 } */
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 2.5rem !important; 
-    padding-left: 2.5rem;
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem;
 }
 
-.tit{
-    background-image: linear-gradient(to right, rgb(107, 129, 251),rgb(192, 238, 242));
-  }
-
-.form-control{
-    width: 40% !important;
-    height: 60px;
+.tit {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 248, 225),
+    rgb(255, 229, 241)
+  );
 }
 
-.t-form{
-    background-image: url('https://cms.learningthroughplay.com/media/bzmc2jcr/shutterstock_654385090.jpg?width=2560');
-    font-family: math;
-    font-size: 24px;
+.form-control {
+  width: 40% !important;
+  height: 60px;
 }
 
-.serv{
-    display: flex;
-    flex-direction: row;
-    height: 650px;
-    width: 100%;
-    padding-top: 50px;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 50px;
+.t-form {
+  background-image: url("https://cms.learningthroughplay.com/media/bzmc2jcr/shutterstock_654385090.jpg?width=2560");
+  font-family: math;
+  font-size: 24px;
 }
- .serv-item{
-    padding-top: 20px;;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-left: 25px;
- }
 
- .serv-1{
-    border:0;
-    border-radius: 10%;
-    background-color:rgb(159, 166, 181) !important;
-    padding-left: 20px;
- }
+.serv {
+  display: flex;
+  flex-direction: row;
+  height: 650px;
+  width: 100%;
+  padding-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 50px;
+}
+.serv-item {
+  padding-top: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
 
-.serv-2{
-    width: 600px !important;
+.serv-1 {
+  border: 0;
+  border-radius: 10%;
+  background-color: rgb(253, 244, 245) !important;
+  padding-left: 20px;
+}
 
+.serv-2 {
+  width: 600px !important;
 }
 
 input.form-control.mr-sm-2 {
-        width: 300px !important;
-        height: 35px;
-    }
-
-    .btn-outline-success {
-        color: white;
-        border-color: #B9E0FF;
-    }
-.ic{
-    font-size: 23px;
-    color:rgb(87, 108, 188);
+  width: 450px !important;
+  height: 40px;
 }
 
-.row{
-    justify-content: space-around;
+.btn-outline-success {
+  color: black;
+  border-color: rgb(232, 160, 191);
+}
+
+.ic {
+  font-size: 23px;
+  color: rgb(87, 108, 188);
+}
+
+.row {
+  justify-content: space-around;
 }
 .navbar1 {
   position: fixed;
@@ -190,7 +179,7 @@ input.form-control.mr-sm-2 {
 #trangban {
   width: 100%;
   height: 100%;
-  margin-top:20px;
+  margin-top: 20px;
   margin-left: 10px;
   display: flex;
   justify-content: space-around;
@@ -199,8 +188,8 @@ input.form-control.mr-sm-2 {
 }
 
 .img {
-    width: 375px;
-    height: auto;
+  width: 375px;
+  height: auto;
 }
 
 .name {
@@ -211,32 +200,32 @@ input.form-control.mr-sm-2 {
 .trang {
   /* margin-bottom: 10px;
   background-color: #F1F6F9; */
-    width: 400px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h5 {
-    font-size: 19px;
-    text-align: left;
-    padding: 20px 10px 0px 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(57, 72, 103);
-    font-weight: bold;
-    
+  font-size: 19px;
+  text-align: left;
+  padding: 20px 10px 0px 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(57, 72, 103);
+  font-weight: bold;
 }
 
 .navbar-light .navbar-brand {
-    color: white;
+  color: white;
 }
 
-a.na1{
-    color: white !important;
-    margin-top: 5px;
+a.na1 {
+  color: white !important;
+  margin-top: 5px;
 }
 
-a.ic{
-    color:rgb(253, 244, 245);
+a.ic {
+  color: rgb(253, 244, 245);
 }
