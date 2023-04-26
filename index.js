@@ -16,7 +16,7 @@ fetch(
     for (item in data) {
       console.log(data[item]);
 
-      let card = document.createElement("a");
+      let card = document.createElement("div");
       let anh = document.createElement("img");
       let title = document.createElement("h5");
       let trangban = document.getElementById("trangban");
@@ -30,5 +30,9 @@ fetch(
       card.appendChild(anh);
       card.appendChild(title);
       trangban.appendChild(card);
+      card.addEventListener("click", () => {
+        localStorage.setItem("API", data[item].id);
+        window.location.href = "trangcon.html";
+      });
     }
-
+  });

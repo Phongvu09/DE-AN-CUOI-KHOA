@@ -1,16 +1,16 @@
-.nav-it-style{
-    padding: 0px 50px !important;
-    font-size: 23px;
+.nav-it-style {
+  padding: 0px 50px !important;
+  font-size: 23px;
 }
 
-body{
-    font-family: 'Georgia', serif !important;
-    height: 100%;
+body {
+  font-family: "Georgia", serif !important;
+  height: 100%;
 }
 
-.footer{
+.footer {
   background-color: rgb(218, 245, 255);
-  
+}
 .nav-it-style {
   padding: 0px 50px !important;
   font-size: 25px;
@@ -28,67 +28,67 @@ body {
   height: 400px;
 }
 
-.navbar1{
-    width: 100% !important;
-    position: fixed;
-    top: 0px;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
+.navbar1 {
+  width: 100% !important;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
 }
 
-h1{
-    padding-top: 20px;
-    text-align: center;
-    font-size: 50px !important;
+h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 50px !important;
 }
 
-p{
-    font-size: 22px;
-    padding: 0px 30px;
+p {
+  font-size: 22px;
+  padding: 0px 30px;
 }
 
-.search{
-    display: flex;
+.search {
+  display: flex;
 }
 
-.search-hover:hover{
-    background-color: rgb(232, 160, 191) !important;
-    color: white;
+.search-hover:hover {
+  background-color: rgb(232, 160, 191) !important;
+  color: white;
 }
 
-.navbar-expand-lg .navbar-collapse{
-    display: flex!important;
-    justify-content: space-between ;
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  justify-content: space-between;
 }
 
 .my-2 {
-    padding: 0 50px !important;
+  padding: 0 50px !important;
 }
 
-.ft{
-    padding-bottom: 5px;
+.ft {
+  padding-bottom: 5px;
 }
 
-.fta{
-    font-size: 24px !important;
-    color:rgb(111, 190, 233);   
+.fta {
+  font-size: 24px !important;
+  color: rgb(111, 190, 233);
 }
 
-.vm-img{
-    display: flex;
-    justify-content: center;
+.vm-img {
+  display: flex;
+  justify-content: center;
 }
 
-.vm{
-    display: flex;
-    justify-content: center;
+.vm {
+  display: flex;
+  justify-content: center;
 }
 
-.ddown{
-    color: rgb(87, 108, 188);
-    padding-right: 10px;
-    font-size: 16px;
+.ddown {
+  color: rgb(87, 108, 188);
+  padding-right: 10px;
+  font-size: 16px;
 }
 
 /* li.nav-item.active {
@@ -100,72 +100,75 @@ li.nav-item {
 } */
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 2.5rem !important; 
-    padding-left: 2.5rem;
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem;
 }
 
-.tit{
-    background-image: linear-gradient(to right, rgb(255, 248, 225) , rgb(255, 229, 241));
-  }
-
-.form-control{
-    width: 40% !important;
-    height: 60px;
+.tit {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 248, 225),
+    rgb(255, 229, 241)
+  );
 }
 
-.t-form{
-    background-image: url('https://cms.learningthroughplay.com/media/bzmc2jcr/shutterstock_654385090.jpg?width=2560');
-    font-family: math;
-    font-size: 24px;
+.form-control {
+  width: 40% !important;
+  height: 60px;
 }
 
-.serv{
-    display: flex;
-    flex-direction: row;
-    height: 650px;
-    width: 100%;
-    padding-top: 50px;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 50px;
+.t-form {
+  background-image: url("https://cms.learningthroughplay.com/media/bzmc2jcr/shutterstock_654385090.jpg?width=2560");
+  font-family: math;
+  font-size: 24px;
 }
- .serv-item{
-    padding-top: 20px;;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-left: 25px;
- }
 
- .serv-1{
-    border:0;
-    border-radius: 10%;
-    background-color:rgb(253, 244, 245) !important;
-    padding-left: 20px;
- }
+.serv {
+  display: flex;
+  flex-direction: row;
+  height: 650px;
+  width: 100%;
+  padding-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 50px;
+}
+.serv-item {
+  padding-top: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
 
-.serv-2{
-    width: 600px !important;
+.serv-1 {
+  border: 0;
+  border-radius: 10%;
+  background-color: rgb(253, 244, 245) !important;
+  padding-left: 20px;
+}
 
+.serv-2 {
+  width: 600px !important;
 }
 
 input.form-control.mr-sm-2 {
-    width: 450px !important;
-    height: 40px;
+  width: 450px !important;
+  height: 40px;
 }
 
 .btn-outline-success {
-    color: black;
-    border-color: rgb(232, 160, 191);
+  color: black;
+  border-color: rgb(232, 160, 191);
 }
 
-.ic{
-    font-size: 23px;
-    color:rgb(87, 108, 188);
+.ic {
+  font-size: 23px;
+  color: rgb(87, 108, 188);
 }
 
-.row{
-    justify-content: space-around;
+.row {
+  justify-content: space-around;
 }
 .navbar1 {
   position: fixed;
