@@ -19,6 +19,19 @@ body {
 
 body {
   font-family: "Georgia", serif !important;
+  height: 100%;
+}
+
+.footer {
+  background-color: rgb(218, 245, 255);
+}
+.nav-it-style {
+  padding: 0px 50px !important;
+  font-size: 23px;
+}
+
+body {
+  font-family: "Georgia", serif !important;
   background-color: white;
 }
 
@@ -212,7 +225,7 @@ input.form-control.mr-sm-2 {
 
 .trang {
   /* margin-bottom: 10px;
-background-color: #F1F6F9; */
+  background-color: #F1F6F9; */
   width: 400px;
   height: 350px;
   display: flex;
