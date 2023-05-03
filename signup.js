@@ -1,7 +1,6 @@
 const forms = document.querySelector(".forms"),
   pwShowHide = document.querySelectorAll(".eye-icon"),
   links = document.querySelectorAll(".link");
-
 pwShowHide.forEach((eyeIcon) => {
   eyeIcon.addEventListener("click", () => {
     let pwFields =
@@ -25,17 +24,24 @@ links.forEach((link) => {
     forms.classList.toggle("show-signup");
   });
 });
-button(signin).addEventListener("click", () => {
-  const email = document.getElementById("nemail").value;
-  const password = document.getElementById("npassword").value;
-  localStorage.getItem("email");
-  localStorage.getItem("password");
-  if (nemail == email && npassword == password) {
-    alert("Đăng Nhập Thành Công");
-    setTimeout(() => {
-      location.href = "index.html";
-    });
+button.addEventListener("click", () => {
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+  const cpassword = document.getElementById("cpassword").value;
+  if (email == "" || password == "" || cpassword == "") {
+    alert("NHẬP THIẾU Ô!");
   } else {
-    alert("Mật khẩu hoặc Email không trùng khớp");
+    localStorage.setItem("email", email);
+    localStorage.setItem("password", password);
+    if (password == confirmpassword) {
+      document.getElementById("cpassword").innerHTML = "Mật khẩu đã khớp";
+    } else {
+      document.getElementById("cpassword").innerHTML = (
+        <span color="red"> Mật khẩu chưa khớp</span>
+      );
+      setTimeout(() => {
+        location.href = "signin.html";
+      }, 1000);
+    }
   }
 });

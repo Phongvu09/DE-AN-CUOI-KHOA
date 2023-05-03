@@ -79,9 +79,19 @@
                     aria-labelledby="navbarDarkDropdownMenuLink"
                     style="margin-left: 40px"
                   >
-                    <li><a class="dropdown-item" href="#">Survival</a></li>
-                    <li><a class="dropdown-item" href="#">Adventure</a></li>
-                    <li><a class="dropdown-item" href="#">Sports</a></li>
+                    <li>
+                      <a class="dropdown-item" href="trangloai.html"
+                        >Survival</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="trangloai.html"
+                        >Adventure</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="trangloai.html">Sports</a>
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -89,11 +99,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link nav-it-style na1" href="signup.html">Sign Up</a>
+            <a class="nav-link nav-it-style na1" href="signin.html">Sign In</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link nav-it-style na1" href="signin.html">Sign In</a>
+            <a class="nav-link nav-it-style na1" href="signup.html">Sign Up</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0 search">
@@ -116,26 +126,35 @@
     <section class="container forms">
       <div class="form login">
         <div class="form-content">
-          <header>Login</header>
+          <header>Signup</header>
           <form action="#">
-            <div class="field input-field">
+            <div class="field input-field"  id="email">
               <input type="email" placeholder="Email" class="input" />
             </div>
 
-            <div class="field input-field">
+            <div class="field input-field" id="password">
               <input type="password" placeholder="Password" class="password" />
               <i class="bx bx-hide eye-icon"></i>
             </div>
 
+            <div class="field input-field" id="cpassword">
+              <input
+                type="password"
+                placeholder=" Confirm Password"
+                class="password"
+              />
+              <i class="bx bx-hide eye-icon"></i>
+            </div>
+
             <div class="field button-field">
-              <button>Signin</button>
+              <button>Sign Up</button>
             </div>
           </form>
 
           <div class="form-link">
             <span
-              >Don't have an account?
-              <a href="signup.html" class="link signup-link">signup</a></span
+              >Already have an account?
+              <a href="signin.html" class="link signup-link">sign in</a></span
             >
           </div>
         </div>
@@ -148,76 +167,73 @@
             <span>Login with Facebook</span>
           </a>
         </div>
-
-        <div class="media-options">
-          <a href="#" class="field google">
-            <img src="#" alt="" class="google-img" />
-            <span>Login with Google</span>
-          </a>
-        </div>
-      </div>
     </section>
 
     <div class="mt-5 pt-5 pb-5 footer">
-      <div class="row">
-        <div class="col-lg-5 col-xs-12 about-company">
-          <h2 style="color: rgb(192, 238, 242)">Heading</h2>
-          <p
-            class="pr-5 text-white-50"
-            style="color: antiquewhite !important; padding-left: 0px !important"
-          >
-            Ensure that all children have the opportunity to achieve their
-            fullest potential.
-          </p>
-          <h4 class="mt-lg-0 mt-sm-3" style="color: rgb(192, 238, 242)">
-            Links
-          </h4>
-          <ul style="list-style-type: none" class="m-0 p-0">
-            <li>
-              <a
-                href="https://www.facebook.com/profile.php?id=100015829237395"
-                class="ic"
-                style="text-decoration: none"
-                ><i class="fa-brands fa-facebook-f"></i> Facebook
-              </a>
-            </li>
-            <li>
-              <a
-                href="http://www.projectchildren.org/"
-                class="ic"
-                style="text-decoration: none"
-                ><i class="fa-solid fa-badge-check"></i>Our Partner</a
-              >
-            </li>
-            <li>
-              <a href="#" class="ic" style="text-decoration: none"
-                ><i class="fa-regular fa-envelope"></i> Gmail : abc@gmail.com
-              </a>
-            </li>
-          </ul>
-        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-xs-12 about-company">
+            <h2 style="color: rgb(192, 238, 242)">Heading</h2>
+            <p
+              class="pr-5 text-white-50"
+              style="
+                color: antiquewhite !important;
+                padding-left: 0px !important;
+              "
+            >
+              Ensure that all children have the opportunity to achieve their
+              fullest potential.
+            </p>
+            <h4 class="mt-lg-0 mt-sm-3" style="color: rgb(192, 238, 242)">
+              Links
+            </h4>
+            <ul style="list-style-type: none" class="m-0 p-0">
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100015829237395"
+                  class="ic"
+                  style="text-decoration: none"
+                  ><i class="fa-brands fa-facebook-f"></i> Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://www.projectchildren.org/"
+                  class="ic"
+                  style="text-decoration: none"
+                  ><i class="fa-solid fa-badge-check"></i>Our Partner</a
+                >
+              </li>
+              <li>
+                <a href="#" class="ic" style="text-decoration: none"
+                  ><i class="fa-regular fa-envelope"></i> Gmail : abc@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
 
-        <div class="col-lg-4 col-xs-12 location">
-          <h4 class="mt-lg-0 mt-sm-4" style="color: rgb(192, 238, 242)">
-            Location
-          </h4>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2404326972323!2d106.65069561361061!3d10.792888461843722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293561572453%3A0xe2152d20fb502dcb!2zTmjDom4gVsSDbiB8IFNpw6p1IHRo4buLIHPDoWNoICYgdGnhu4duIMOtY2ggLSBUcsaw4budbmcgQ2hpbmggLSBC4bqjeSBIaeG7gW4gLSBUw6JuIELDrG5o!5e0!3m2!1svi!2s!4v1681233251346!5m2!1svi!2s"
-            width="300"
-            height="200"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-          <p style="color: antiquewhite; padding-left: 0px !important">
-            1 Truong Chinh St., Ward 11, D. Tan Binh, HCMC
-          </p>
+          <div class="col-lg-4 col-xs-12 location">
+            <h4 class="mt-lg-0 mt-sm-4" style="color: rgb(192, 238, 242)">
+              Location
+            </h4>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2404326972323!2d106.65069561361061!3d10.792888461843722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293561572453%3A0xe2152d20fb502dcb!2zTmjDom4gVsSDbiB8IFNpw6p1IHRo4buLIHPDoWNoICYgdGnhu4duIMOtY2ggLSBUcsaw4budbmcgQ2hpbmggLSBC4bqjeSBIaeG7gW4gLSBUw6JuIELDrG5o!5e0!3m2!1svi!2s!4v1681233251346!5m2!1svi!2s"
+              width="300"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <p style="color: antiquewhite; padding-left: 0px !important">
+              1 Truong Chinh St., Ward 11, D. Tan Binh, HCMC
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="signup.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
       integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
