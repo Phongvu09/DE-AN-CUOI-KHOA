@@ -19,22 +19,17 @@ pwShowHide.forEach((eyeIcon) => {
   });
 });
 
-links.forEach((link) => {
-  link.addEventListener("click", (e) => {
-    e.preventDefault();
-    forms.classList.toggle("show-signup");
-  });
-});
-button(signin).addEventListener("click", () => {
-  const email = document.getElementById("nemail").value;
-  const password = document.getElementById("npassword").value;
-  localStorage.getItem("email");
-  localStorage.getItem("password");
+const nemail = document.getElementById("nemail").value;
+const npassword = document.getElementById("npassword").value;
+localStorage.getItem("API");
+const button = document.getElementById("dangnha");
+
+button.addEventListener("click", () => {
+  const nemail = document.getElementById("nemail").value;
+  const npassword = document.getElementById("npassword").value;
   if (nemail == email && npassword == password) {
     alert("Đăng Nhập Thành Công");
-    setTimeout(() => {
-      location.href = "index.html";
-    });
+    location.href = "index.html";
   } else {
     alert("Mật khẩu hoặc Email không trùng khớp");
   }

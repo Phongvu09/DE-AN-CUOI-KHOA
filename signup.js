@@ -18,30 +18,29 @@ pwShowHide.forEach((eyeIcon) => {
   });
 });
 
-links.forEach((link) => {
-  link.addEventListener("click", (e) => {
-    e.preventDefault();
-    forms.classList.toggle("show-signup");
-  });
-});
+const button = document.getElementById("dangnhap");
+
 button.addEventListener("click", () => {
+  console.log(1);
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
   const cpassword = document.getElementById("cpassword").value;
   if (email == "" || password == "" || cpassword == "") {
     alert("NHẬP THIẾU Ô!");
   } else {
-    localStorage.setItem("email", email);
-    localStorage.setItem("password", password);
-    if (password == confirmpassword) {
-      document.getElementById("cpassword").innerHTML = "Mật khẩu đã khớp";
+    if (password == cpassword) {
+      alert("Mật khẩu đẫ khớp");
+      location.href = "signin.html";
+      const array = [
+        {
+          email: "email",
+          password: "password",
+        },
+      ];
+      const setjson = JSON.stringify(obj);
+      localStorage.setItem("API", setjson);
     } else {
-      document.getElementById("cpassword").innerHTML = (
-        <span color="red"> Mật khẩu chưa khớp</span>
-      );
-      setTimeout(() => {
-        location.href = "signin.html";
-      }, 1000);
+      alert("Mật khẩu chưa khớp");
     }
   }
 });
