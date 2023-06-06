@@ -20,6 +20,20 @@ body {
 body {
   font-family: "Georgia", serif !important;
   background-color: #dcdcdc;
+  height: 100%;
+}
+
+.footer {
+  background-color: rgb(218, 245, 255);
+}
+.nav-it-style {
+  padding: 0px 50px !important;
+  font-size: 23px;
+}
+
+body {
+  font-family: "Georgia", serif !important;
+  background-color: white;
 }
 
 .footer {
@@ -217,6 +231,13 @@ input.form-control.mr-sm-2 {
   margin-left: 40px;
   margin-bottom: 10px;
   border-radius: 7px;
+  /* margin-bottom: 10px;
+  background-color: #F1F6F9; */
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 h5 {
   font-size: small;
