@@ -33,8 +33,8 @@ button.addEventListener("click", () => {
       location.href = "signin.html";
       const array = [
         {
-          email: "email",
-          password: "password",
+          email: email,
+          password: password,
         },
       ];
       const setjson = JSON.stringify(obj);

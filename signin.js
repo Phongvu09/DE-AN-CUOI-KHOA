@@ -18,19 +18,21 @@ pwShowHide.forEach((eyeIcon) => {
     });
   });
 });
-
 const nemail = document.getElementById("nemail").value;
 const npassword = document.getElementById("npassword").value;
+
 localStorage.getItem("API");
 const button = document.getElementById("dangnha");
 
 button.addEventListener("click", () => {
-  const nemail = document.getElementById("nemail").value;
-  const npassword = document.getElementById("npassword").value;
-  if (nemail == email && npassword == password) {
-    alert("Đăng Nhập Thành Công");
-    location.href = "index.html";
+  if (nemail == "" || npassword == "") {
+    alert("NHẬP THIẾU Ô!");
   } else {
-    alert("Mật khẩu hoặc Email không trùng khớp");
+    if (nemail == email && npassword == password) {
+      alert("Đăng Nhập Thành Công");
+      location.href = "index.html";
+    } else {
+      alert("Mật khẩu hoặc Email không trùng khớp");
+    }
   }
 });
